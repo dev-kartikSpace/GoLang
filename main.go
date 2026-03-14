@@ -3,17 +3,29 @@ package main
 import "fmt"
 
 func main() {
-	var myString string
-	myString = "Hello Kartik"
-	//string zero value is emty string
-	fmt.Println(myString)
+	var smallPositiveValue uint8
+	smallPositiveValue = 10
+	fmt.Println(smallPositiveValue)
 
-	var myInt int = 10
-	//int zero value for int is 0
+	var smallPosNegInt int8
+	smallPosNegInt = -10
+	fmt.Println((smallPosNegInt))
+
+	var myInt int = 23000000043
 	fmt.Println(myInt)
 
-	var myBool bool
-	myBool = true
-	//bool zero value for bool is false
-	fmt.Println(myBool)
+	myInt = int(smallPositiveValue)
+	myInt = int(smallPosNegInt)
+	fmt.Println(myInt)
+
+	var MyByte = 'A'
+	fmt.Println(MyByte)
+	//byte is used to represent raw data
+	//byte also distinguish between int and uint
+	//byte is an alias for uint8
+
+	//rune is alias for int32
+	var myRune = 'B'
+	println(myRune)
+
 }
