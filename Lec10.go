@@ -1,4 +1,4 @@
-//go:buuild ignore
+//go:build ignore
 
 package main
 
