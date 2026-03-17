@@ -1,3 +1,5 @@
+//go:build ignore
+
 package main
 
 // two type of operators -> binary and unary
